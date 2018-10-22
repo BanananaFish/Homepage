@@ -1,12 +1,12 @@
-div#title h3 {
-    color:black;
+div.title h3 {
+    color: black;
     font-size: 96px;
     padding-bottom: 0px;
     margin-bottom: -3px;
     margin-top: 300px;
 }
 
-div#title {
+div.title {
     margin-bottom: 130px;
 
     border-bottom-width: 30px;
@@ -17,16 +17,16 @@ div#title {
     transform: skewY(-30deg);
 }
 
-div#menu {
+div.menu {
     float: left;
     margin-top: -250px;
-    border-left-color:black;
+    border-left-color: black;
     border-left-style: solid;
-    border-left-width:37px;
+    border-left-width: 37px;
     height: 2200px;
 }
 
-h1 {
+h1#homepage_head {
     font-size: 18.5em;
     margin: 0;
     padding: 0;
@@ -88,11 +88,13 @@ div#Box a {
     text-decoration: none;
 }
 
-div#Box a:link,div#Page a:link {
-    color:#d6bc45;
+div#Box a:link,
+div#Page a:link {
+    color: #d6bc45;
 }
 
-div#Box a:hover,div#Page a:hover {
+div#Box a:hover,
+div#Page a:hover {
     color: peru;
 }
 
@@ -101,7 +103,7 @@ div#Page {
     margin-right: 130px;
 
     padding: 20px 40px 20px 40px;
-    
+
     border-width: 20px;
     border-color: black;
     border-style: solid;
@@ -123,7 +125,7 @@ div#Page h4 {
     text-align: center;
 }
 
-div#BG img{
+div#BG img {
     z-index: -99;
     float: left;
     margin-top: -300px;
